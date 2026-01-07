@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Video Processor",
+  "version": "1.0",
+  "description": "Send YouTube video ID to backend",
+  "permissions": ["tabs", "storage"],
+  "host_permissions": ["https://www.youtube.com/*", "http://localhost:8000/*"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
